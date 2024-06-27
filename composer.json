@@ -1,0 +1,27 @@
+{
+    "name": "worksection/oauth2-clickup",
+    "description": "ClickUp Oauth 2.0 Client Provider for the PHP league OAuth2 Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadym Dorokh",
+            "email": "vadymski@gmail.com",
+            "role": "Distributor"
+        },
+        {
+            "name": "Sumaer Jolly",
+            "email": "sumaerjolly@gmail.com",
+            "role": "Author"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+      "php": ">=5.5.0",
+      "league/oauth2-client": "^2.0"
+    },
+    "autoload": {
+		"psr-4": {
+			"Worksection\\OAuth2\\Client\\": "src/"
+		}
+	}
+}
